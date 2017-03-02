@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "C:UserszangkunC:Userszangkunuser-center-service",
+    "script": "www/production.js",
+    "cwd": "C:\Users\zangkun\user-center-service",
+    "exec_mode": "cluster",
+    "instances": 0,
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}

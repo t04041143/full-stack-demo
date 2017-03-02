@@ -1,0 +1,36 @@
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.simple-content {
+  height: -moz-calc(100% - 1em);
+  height: -webkit-calc(100% - 1em);
+  height: calc(100% - 1em);
+  background: url("./images/irongrip.png") repeat #444;
+}
+
+.signin {
+  margin-top: 80px;
+  padding: 5px 5px 40px 5px;
+  width: 380px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.signin .split-line {
+  height: 1px;
+  background: #d9d9d9;
+}
+
+form .error {
+  margin-top: 5px;
+  height: 32px;
+}
+
+.content {
+  height: -moz-calc(100% - 1em);
+  height: -webkit-calc(100% - 1em);
+  height: calc(100% - 1em);
+  background: url("./images/irongrip.png") repeat #444;
+}

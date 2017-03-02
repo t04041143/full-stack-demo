@@ -1,0 +1,42 @@
+*, :after, :before {
+  box-sizing: border-box
+}
+
+body, html {
+  width: 100%;
+  height: 100%
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #666;
+  background-color: #fff
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+
+ol, ul {
+  /* list-style: none; */
+}
+
+.page-wrapper {
+  background: #ececec;
+}
+
+.main-wrapper {
+  width: 92%;
+  border-radius: 6px;
+  padding: 24px 0 0;
+  margin: 0 auto 24px;
+}
+
+.main-wrapper, div.main-container {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+

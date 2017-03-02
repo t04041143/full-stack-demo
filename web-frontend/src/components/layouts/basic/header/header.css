@@ -1,0 +1,48 @@
+header {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  height: 80px;
+  margin-bottom: 24px;
+  padding: 0 4%;
+  width: 100%;
+}
+
+.logo-1 {
+  float: left;
+}
+
+.logo-1, .logo-1 img {
+  height: 80px;
+  line-height: 80px;
+}
+
+.logo-1 img {
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-right: 8px;
+}
+
+.logo-1 span {
+  float: right;
+  font-size: 16px;
+  font-family: Raleway, Hiragino Sans GB, sans-serif;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.main-nav {
+  border: 0;
+  font-size: 14px;
+}
+
+.main-nav li {
+  height: 80px;
+  line-height: 80px;
+  min-width: 72px;
+  text-align: center;
+  border-bottom-width: 3px;
+}
